@@ -19,6 +19,13 @@ export const products = [
   }
 ];
 
+//added by SF to fix comipiler issue
+export class Product{
+  id
+  name
+  price
+  description
+};
 
 /*
 Copyright Google LLC. All Rights Reserved.
